@@ -10,8 +10,8 @@ function welcome() {
   alert('Do you like programming ' + username + '?')
   let answer = prompt()
 
-  alert('Great, you said ' + answer + '!')
-  alert("Let's learn some code today.")
+  alert('Great, you said ' + answer + 'that is awesome!')
+  
 }
 
 function questionnaire() {
