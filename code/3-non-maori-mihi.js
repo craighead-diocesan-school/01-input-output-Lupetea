@@ -9,7 +9,14 @@ function nonMaoriMihi() {
 
   alert('What is your name?')
   let name = prompt()
+
   // more questions and answers here
+  alert('What is your mountain?')
+  let mountain= prompt()
+  alert('What is your body of water?')
+  let river= prompt()
+  alert('What is your hometown?')
+  let hometown= prompt ()
 
   alert('Your mihi:')
   // more outputs here
@@ -18,4 +25,7 @@ function nonMaoriMihi() {
   alert('Tēnā koutou,')
   alert('Tēnā koutou,')
   alert('Tēnā koutou, katoa.')
+do {
+    
+} while (condition);
 }

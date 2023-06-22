@@ -3,11 +3,11 @@
 // ####################################
 
 function welcome() {
-  let name = 'Mary'
+  let username = prompt("What's your name?")
 
   alert('We want to know if you like programming!')
 
-  alert('Do you like programming ' + name + '?')
+  alert('Do you like programming ' + username + '?')
   let answer = prompt()
 
   alert('Great, you said ' + answer + '!')
@@ -15,5 +15,15 @@ function welcome() {
 }
 
 function questionnaire() {
-  // write the code for your questionnaire here
+  let name= prompt("What's your name?")
+  
+  alert ("Nice, to meet you!")
+
+  let breakfast= prompt ("What did you have for breakfast?")
+
+  alert("Sounds Delicious!")
+
+  let colour= prompt ("What is your favourite colour at the moment?")
+
+  alert("I don't like that colour!")
 }
